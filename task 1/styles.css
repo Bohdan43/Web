@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, aside, footer {
+    border: 1px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    clear: both;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    flex: 1 0 20%;
+    height: 200px;
+}
+
+main {
+    flex: 1 0 50%;
+    height: 200px;
+}
+
+aside {
+    flex: 1 0 30%;
+    height: 100px;
+}
+
+footer {
+    flex: 1 0 30%;
+    height: 100px;
+    margin-top: -100px; /* Вирівнюємо з додатковою секцією */
+    margin-left: 70%; /* Розташовуємо нижній колонтитул під додатковою секцією */
+    clear: left; /* Забезпечуємо, що колонтитул не зливається з попереднім вмістом */
+}
