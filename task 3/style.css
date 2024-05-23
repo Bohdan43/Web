@@ -1,0 +1,10 @@
+.element {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.hidden {
+  display: none;
+}
